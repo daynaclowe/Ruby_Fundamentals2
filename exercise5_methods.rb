@@ -15,7 +15,14 @@
 # to call on in terminal type: reverse_sign(56) => -56 
 
 #VARIABLE SCOPE
-def new_method(number)
-	number
-end
+# def new_method(number)
+# 	number
+# end
 #to call on in terminal type: new_method(5) => 5
+
+#VARIABLE SCOPE PART 2
+# var_1 = 20
+# def new_method(var_2)
+# 	var_2
+# end
+#to call on in terminal type: new_method(var_1)  => 20
