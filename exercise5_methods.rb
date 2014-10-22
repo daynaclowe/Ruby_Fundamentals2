@@ -1,3 +1,42 @@
+# puts "Please provide your temperature in fahrenheit."
+# input = gets.chomp
+
+# def fahrenheit(f)
+# 	"#{f} fahrenheit" 
+# end
+
+# puts "You entered #{fahrenheit(input)}."
+
+###
+
+puts "Please provide your temperature in fahrenheit."
+input = gets.chomp
+input = input.to_i 
+
+def celcius(f)
+	(f - 32.0) * 5/9
+end
+
+
+puts "Your fahrenheit in celcius is #{celcius(input).round(2)}"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # IMPLICIT vs EXPLICIT RETURN
 #def method_name
 # 		"The interperter reads over me but does nothing"
