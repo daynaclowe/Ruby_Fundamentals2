@@ -25,10 +25,8 @@ puts students.keys
 puts " "
 
 def increase(hash)
-	hash.each do |cohort, number|
-		hash[cohort] = number * 1.05
-		puts "#{cohort}: #{number}"
-	end
+	hash.each {|cohort, number| puts (number * 1.05).round}
+		# puts "#{cohort}: #{number}"
 end
 
 increase(students)
